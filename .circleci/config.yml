@@ -8,9 +8,9 @@ jobs:
       - run: npm run build
       - aws-s3/sync:
           arguments: --recursive --cache-control max-age=259200
-          aws-access-key-id: AWS_ACCESS_KEY_ID_RESUME
-          aws-region: AWS_REGION_RESUME
-          aws-secret-access-key: AWS_SECRET_ACCESS_KEY_RESUME
+          aws-access-key-id: AWS_ACCESS_KEY_ID_HOMEPAGE
+          aws-region: AWS_REGION_HOMEPAGE
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY_HOMEPAGE
           from: build
           to: 's3://sjmyuan-homepage'
 orbs:
