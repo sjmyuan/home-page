@@ -1,0 +1,18 @@
+jobs:
+  build:
+    docker:
+      - image: 'node:16.3.0'
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run build
+      - aws-s3/sync:
+          arguments: --recursive --cache-control max-age=259200
+          aws-access-key-id: AWS_ACCESS_KEY_ID_RESUME
+          aws-region: AWS_REGION_RESUME
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY_RESUME
+          from: build
+          to: 's3://sjmyuan-homepage'
+orbs:
+  aws-s3: circleci/aws-s3@2.0.0
+version: 2.1
