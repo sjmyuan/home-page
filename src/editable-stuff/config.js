@@ -16,12 +16,12 @@ const mainBody = {
       url: "https://github.com/sjmyuan",
     },
     {
-      image: "fa-blogger",
+      image: "fa-wordpress",
       url: "https://blog.shangjiaming.com",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/shang-jiaming-98b494141",
+      url: "https://www.linkedin.com/in/jiaming-shang-98b494141/",
     },
   ],
 };
@@ -43,7 +43,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "https://images.shangjiaming.com/avatar-resume.jpeg",
+  imageLink: "https://images.shangjiaming.com/avatar-resume-984x984.png",
   imageSize: 375,
   message:
     "I'm a developer and team leader, I help my client build better products with excellent working relationship and professional skills.\n\nI love functional programming, devops and micro service. but I'm also comfortable to use any technology.",
