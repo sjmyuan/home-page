@@ -59,8 +59,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "sjmyuan", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 2,
+  specificRepos: ["copy-as-markdown", "jlogger", "nextcloud-ffmpeg", "sit"],
 };
 
 // Leadership SECTION
