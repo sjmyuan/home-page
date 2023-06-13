@@ -46,7 +46,7 @@ const about = {
   imageLink: "https://images.shangjiaming.com/avatar-resume-984x984.png",
   imageSize: 375,
   message:
-    "I'm a developer and team leader, I help my client build better products with excellent working relationship and professional skills.\n\nI love functional programming, devops and micro service. but I'm also comfortable to use any technology.",
+    "I am a Lead Consultant and Technical Principal at an Offshore Delivery Center, where I assist clients in expediting product delivery and enhancing quality through the implementation of cutting-edge methodologies and techniques.",
   resume: "https://resume.shangjiaming.com/",
 };
 
