@@ -46,7 +46,7 @@ const about = {
   imageLink: "https://images.shangjiaming.com/avatar-resume-984x984.png",
   imageSize: 375,
   message:
-    "I am a Lead Consultant and Technical Principal at an Offshore Delivery Center, where I assist clients in expediting product delivery and enhancing quality through the implementation of cutting-edge methodologies and techniques.",
+    "I serve as a Lead Consultant, assisting clients in accelerating product delivery and improving quality through the implementation of advanced methodologies and techniques. Additionally, I am passionate about and actively practice Functional Programming, DevOps, and Agile principles.",
   resume: "https://resume.shangjiaming.com/",
 };
 
